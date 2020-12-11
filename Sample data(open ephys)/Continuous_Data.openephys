@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EXPERIMENT version="0.40000000000000002" number="1" separatefiles="0">
+  <RECORDING number="0" samplerate="1000">
+    <PROCESSOR id="100">
+      <CHANNEL name="CH1" bitVolts="0.19499999284744263" filename="100_CH1.continuous"
+               position="1024"/>
+      <CHANNEL name="CH2" bitVolts="0.19499999284744263" filename="100_CH2.continuous"
+               position="1024"/>
+      <CHANNEL name="CH3" bitVolts="0.19499999284744263" filename="100_CH3.continuous"
+               position="1024"/>
+      <CHANNEL name="CH4" bitVolts="0.19499999284744263" filename="100_CH4.continuous"
+               position="1024"/>
+      <CHANNEL name="CH5" bitVolts="0.19499999284744263" filename="100_CH5.continuous"
+               position="1024"/>
+      <CHANNEL name="CH6" bitVolts="0.19499999284744263" filename="100_CH6.continuous"
+               position="1024"/>
+      <CHANNEL name="CH7" bitVolts="0.19499999284744263" filename="100_CH7.continuous"
+               position="1024"/>
+      <CHANNEL name="CH8" bitVolts="0.19499999284744263" filename="100_CH8.continuous"
+               position="1024"/>
+      <CHANNEL name="CH9" bitVolts="0.19499999284744263" filename="100_CH9.continuous"
+               position="1024"/>
+      <CHANNEL name="CH10" bitVolts="0.19499999284744263" filename="100_CH10.continuous"
+               position="1024"/>
+      <CHANNEL name="CH11" bitVolts="0.19499999284744263" filename="100_CH11.continuous"
+               position="1024"/>
+      <CHANNEL name="CH12" bitVolts="0.19499999284744263" filename="100_CH12.continuous"
+               position="1024"/>
+      <CHANNEL name="CH13" bitVolts="0.19499999284744263" filename="100_CH13.continuous"
+               position="1024"/>
+      <CHANNEL name="CH14" bitVolts="0.19499999284744263" filename="100_CH14.continuous"
+               position="1024"/>
+      <CHANNEL name="CH15" bitVolts="0.19499999284744263" filename="100_CH15.continuous"
+               position="1024"/>
+      <CHANNEL name="CH16" bitVolts="0.19499999284744263" filename="100_CH16.continuous"
+               position="1024"/>
+      <CHANNEL name="CH17" bitVolts="0.19499999284744263" filename="100_CH17.continuous"
+               position="1024"/>
+      <CHANNEL name="CH18" bitVolts="0.19499999284744263" filename="100_CH18.continuous"
+               position="1024"/>
+      <CHANNEL name="CH19" bitVolts="0.19499999284744263" filename="100_CH19.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC1" bitVolts="0.000152587890625" filename="100_ADC1.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC2" bitVolts="0.000152587890625" filename="100_ADC2.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC3" bitVolts="0.000152587890625" filename="100_ADC3.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC4" bitVolts="0.000152587890625" filename="100_ADC4.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC5" bitVolts="0.000152587890625" filename="100_ADC5.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC6" bitVolts="0.000152587890625" filename="100_ADC6.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC7" bitVolts="0.000152587890625" filename="100_ADC7.continuous"
+               position="1024"/>
+      <CHANNEL name="ADC8" bitVolts="0.000152587890625" filename="100_ADC8.continuous"
+               position="1024"/>
+    </PROCESSOR>
+  </RECORDING>
+</EXPERIMENT>
