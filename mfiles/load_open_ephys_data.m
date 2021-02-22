@@ -141,7 +141,7 @@ if strcmp(filetype, 'events')
     
 elseif strcmp(filetype, 'continuous')
     
-    disp(['Loading ' filename '...']);
+    % disp(['Loading ' filename '...']);
     
     index = 0;
     
