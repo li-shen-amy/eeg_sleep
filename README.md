@@ -1,9 +1,8 @@
+# Sleep State Auto-Scoring based on EEG and EMG signals
+This is a MATLAB App for visualization and automatically sleep cycle analysis based on animal's EEG and EMG signals.
 <p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_eeg.jpg" />
 </p>
-
-# Sleep State Auto-Scoring based on EEG and EMG signals
-This is a MATLAB App for visualization and automatically sleep cycle analysis based on animal's EEG and EMG signals.
 
 # Decision-Tree Algorithm based on EEG and EMG signals
 ## Basic setup:
