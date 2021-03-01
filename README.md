@@ -19,6 +19,9 @@ deviation above the mean, and (3) the EMG power was lower than its mean plus one
 - Finally, we manually verified the automatic classification to evaluate the results.
 ## Interactively visual scoring
 During the whole processing, the GUI provide visualization and allow easily and interactively manual thresholding and scoring.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_decision_tree.png" />
+</p>
 
 # Get-started
 GUI for visualization and automatic differentiation of sleep cycles
