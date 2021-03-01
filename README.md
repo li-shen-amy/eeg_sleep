@@ -25,6 +25,7 @@ GUI for visualization and automatic differentiation of sleep cycles
 <p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui.png" />
 </p>
+
 ## Load EEG, EMG and Trigger signals
 ## Set time window to display the signal
 ## Calculate the features
