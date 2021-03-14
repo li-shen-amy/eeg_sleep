@@ -30,6 +30,10 @@ GUI for visualization and automatic differentiation of sleep cycles
 </p>
 
 ## Load EEG, EMG and Trigger signals
+The panel in top-left corner is for loading the signal (EEG, EMG, or Trigger signals). You can set the sampling rate (Fs) and the boundary of time window for visualization.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_load_data.png" />
+</p>
 ## Set time window to display the signal
 ## Calculate the features
 ## Auto-Scoring or Manual Scoring
