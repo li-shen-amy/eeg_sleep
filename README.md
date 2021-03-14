@@ -29,17 +29,73 @@ GUI for visualization and automatic differentiation of sleep cycles
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui.png" />
 </p>
 
-## Load EEG, EMG and Trigger signals
+## Load and visualize EEG, EMG and Trigger signals
 The panel in top-left corner is for loading the signal (EEG, EMG, or Trigger signals). You can set the sampling rate (Fs) and the boundary of time window for visualization.
 <p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_load_data.png" />
 </p>
-## Set time window to display the signal
+
 ## Calculate the features
+(1) Set parameters: time window length (default: 5s), time window overlaps (default: 2.5s), total signal time window calculated (defalt 0 - total length  of signals)
+(2) Click "EEG Spectrogram", the features will be calculated and visualized.
+(3) "Narrow Down" is used when you have already calculated the spectrogram and other parameters but want to narrow down to a shorter duration without recalculating the whole spectrogram and parameters (which may be time-consuming).
+
+Bottom-left panel: EEG and EMG spectrogram, EEG delta power (1-4Hz), EEG theta power (6-12Hz), and EEG theta/delta power ratio, EMG power (summed power between 20-300Hz)
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features1.png" />
+</p>
+
+Top-right panel: Distribution of EEG delta power, EEG theta/delta power ratio, EMG power
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features2.png" />
+</p>
+The number of bins, left and right limit for visualization can be modified in the editable text fields beside corresponding parameters.
+The red vertical or horizontal lines show the interactively set threshold for scoring (default for automatic scoring is shown unless you manually drag and move it)
+
 ## Auto-Scoring or Manual Scoring
+- Auto-Scoring: Click "Auto Score", the default thresholds for EEG delta power, EEG theta/delta power and EMG power in top-right panel are shown as red vertical or horizontal lines.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features1_scoring.jpg" />
+</p>
+
+- Manual Scoring: Set threshold for EEG delta power, EEG theta/delta power and EMG power in top-right panel by dragging and moving the red vertical or horizontal bars.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features1_threshold.jpg" />
+</p>
+
 ## Display Time-dependent or Trigger-dependent percentage of sleep cycle
+- Percentage of each sleep cycle
+After scoring, the percentage of each sleep cycle (Awake, REM sleep, Non-REM sleep) is shown in gray, blue and red colors as shown below.
+- Timestamps and transitions for each stage
+The corresponding timestamps for each stage are also shown as mask shadows on time-dependent parameters in bottom-left panels.
+The transitions for each stage are also shown in the most bottom-left panel. (R= REM sleep, N= Non-REM sleep, W= Wake)
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_timestamps.png" />
+</p>
+
+- Time-dependent percentage of each stage
+The time-dependent change of percentage of each sleep stage during each specific time length (which can be set in bottom-right panel "Segment len(s)" editable text field), is shown in bottom-right panel.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_timepercent.png" />
+</p>
+
+- Trigger-dependent percentage of sleep cycle
+If trigger signal is loaded (e.g. optogenetic stimulation or other treatment applied), the trigger ON and trgiger OFF can be automatically divided and percentage of each sleep cycle during the trigger transition (from OFF transit to ON) will be shown in the most bottom-right panel.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_trigger.png" />
+</p>
+
 ## Save the data and generate figure
+Just click "Export Data", you can save all the data to ".mat" files and meanwhile generate and save a ".fig" and a ".png" file to visualize the signals, features and results.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_save.jpg" />
+</p>
+
 ## Load previously saved data
+You can easily load previously processed data by clicking "Load preprocessed" button in the top-left panel.
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_load.jpg" />
+</p>
 
 # References
 - Kohtoh S, Taguchi Y, Matsumoto N et al.(2008). Algorithm for sleep scoring in experimental animals based on fast Fourier transform power spectrum analysis of the electroencephalogram. _Sleep and Biological Rhythms_ 6: 163–171. 
