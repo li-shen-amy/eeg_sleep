@@ -47,7 +47,7 @@ Bottom-left panel: EEG and EMG spectrogram, EEG delta power (1-4Hz), EEG theta p
 
 Top-right panel: Distribution of EEG delta power, EEG theta/delta power ratio, EMG power
 <p align="center">
-  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features2.png" />
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features.jpg" />
 </p>
 The number of bins, left and right limit for visualization can be modified in the editable text fields beside corresponding parameters.
 The red vertical or horizontal lines show the interactively set threshold for scoring (default for automatic scoring is shown unless you manually drag and move it)
