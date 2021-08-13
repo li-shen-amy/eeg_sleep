@@ -60,7 +60,7 @@ The red vertical or horizontal lines show the interactively set threshold for sc
 
 - Manual Scoring: Set threshold for EEG delta power, EEG theta/delta power and EMG power in top-right panel by dragging and moving the red vertical or horizontal bars.
 <p align="center">
-  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features1_threshold.jpg" />
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features2_threshold.jpg" />
 </p>
 
 ## Display Time-dependent or Trigger-dependent percentage of sleep cycle
