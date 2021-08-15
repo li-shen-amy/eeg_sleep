@@ -42,6 +42,14 @@ The panel in top-left corner is for loading the signal (EEG, EMG, or Trigger sig
 
 Bottom-left panel: EEG and EMG spectrogram, EEG delta power (1-4Hz), EEG theta power (6-12Hz), and EEG theta/delta power ratio, EMG power (summed power between 20-300Hz)
 <p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/EEG_spectrum1.PNG" />
+</p>
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/EEG_spectrum2.JPG" />
+  Two segments of EEG spectrogram (multi-taper)
+</p>
+
+<p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_features1.png" />
 </p>
 
