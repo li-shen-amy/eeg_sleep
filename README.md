@@ -80,7 +80,9 @@ The transitions for each stage are also shown in the most bottom-left panel. (R=
 <p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_gui_timestamps.png" />
 </p>
-
+<p align="center">
+  <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_decision.jpg" />
+</p>
 - Time-dependent percentage of each stage
 The time-dependent change of percentage of each sleep stage during each specific time length (which can be set in bottom-right panel "Segment len(s)" editable text field), is shown in bottom-right panel.
 <p align="center">
