@@ -44,6 +44,16 @@ Confusion matrix in test set
 | 4           | 0           | 33          |
 
 ** To improve the performance due to the imbalanced data (REM rarely happens), need to add more data and downsample Awake, NonREM to balance the data, retrain the model.
+After downsampling the dataset to balance the data (still need to include more data):
+
+|             | precision   | recall      | f1-score    |support      |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| awake       | 0.95        | 0.93        | 0.94        | 75          |
+| non-rem     | 0.96        | 0.93        | 0.95        | 76          |
+| rem         | 0.96        | 1.00        | 0.98        | 75          |
+| accuracy    | 0.96                                    | 226         |
+| macro avg   | 0.96        | 0.96        | 0.96        | 226         |
+| weighted avg| 0.96        | 0.96        | 0.96        | 226         |
 
 # Get-started
 GUI for visualization and automatic differentiation of sleep cycles
