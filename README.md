@@ -22,6 +22,8 @@ During the whole processing, the GUI provide visualization and allow easily and 
 <p align="center">
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_decision_tree.png" />
 </p>
+## RandomForest auto-scoring in Python
+see [notebook](https://github.com/li-shen-amy/eeg_sleep/blob/main/sleep_stage.ipynb)
 
 # Get-started
 GUI for visualization and automatic differentiation of sleep cycles
