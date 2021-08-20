@@ -23,6 +23,28 @@ During the whole processing, the GUI provide visualization and allow easily and 
   <img src="https://li-shen-amy.github.io/profile/images/projects/sleep_decision_tree.png" />
 </p>
 
+## RandomForest auto-scoring in Python
+see [notebook](https://github.com/li-shen-amy/eeg_sleep/blob/main/sleep_stage.ipynb)
+
+|             | precision   | recall      | f1-score    |support      |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| awake       | 0.98        | 0.96        | 0.97        | 669         |
+| non-rem     | 0.95        | 0.98        | 0.97        | 497         |
+| rem         | 0.85        | 0.89        | 0.87        | 37          |
+| accuracy    | 0.96                                    | 1203        |
+| macro avg   | 0.93        | 0.94        | 0.93        | 1203        |
+| weighted avg| 0.96        | 0.96        | 0.96        | 1203        |
+
+
+Confusion matrix in test set
+| Awake       | NonREM      | REM         |
+| ----------- | ----------- | ----------- |
+| 639         | 25          | 5           |
+| 8           | 488         | 1           |
+| 4           | 0           | 33          |
+
+** To improve the performance due to the imbalanced data (REM rarely happens), need to add more data and downsample Awake, NonREM to balance the data, retrain the model.
+
 # Get-started
 GUI for visualization and automatic differentiation of sleep cycles
 <p align="center">
